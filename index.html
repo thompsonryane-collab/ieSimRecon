@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ie-SRA | ieSimRecon</title>
+  <meta http-equiv="refresh" content="0; url=SimMobile_v106.html">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      height: 100%; background: #06080a;
+      font-family: 'Share Tech Mono', monospace;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .wrap {
+      text-align: center; color: rgba(0,229,255,.6);
+      font-size: 11px; letter-spacing: 3px;
+    }
+    .logo {
+      display: inline-flex; align-items: center; gap: 8px;
+      margin-bottom: 18px;
+    }
+    .logo-box {
+      display: inline-flex; align-items: center; justify-content: center; gap: 5px;
+      width: 72px; height: 46px;
+      background: linear-gradient(135deg, rgba(0,229,255,.18), rgba(0,229,255,.07));
+      border: 1.5px solid rgba(0,229,255,.85); border-radius: 13px;
+      box-shadow: 0 0 20px rgba(0,229,255,.4);
+    }
+    .logo-e {
+      font-family: Georgia, serif; font-weight: 700; font-size: 38px;
+      color: #00e5ff; line-height: 1;
+      text-shadow: 0 0 18px rgba(0,229,255,.8);
+    }
+    .logo-sra {
+      font-size: 48px; font-weight: 700; letter-spacing: 6px;
+      color: #00e5ff; line-height: 1;
+      text-shadow: 0 0 18px rgba(0,229,255,.8);
+    }
+    .msg { animation: blink 1.2s ease-in-out infinite; }
+    @keyframes blink { 0%,100%{opacity:.4} 50%{opacity:1} }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrap">
+    <div class="logo">
+      <div class="logo-box">
+        <svg width="20" height="29" viewBox="0 0 22 32" fill="none">
+          <rect x="7" y="0" width="8" height="8" rx="3" fill="white"/>
+          <rect x="5" y="13" width="12" height="19" rx="3" fill="white"/>
+        </svg>
+        <span class="logo-e">e</span>
+      </div>
+      <span class="logo-sra">SRA</span>
+    </div>
+    <div class="msg">LOADING SYSTEM...</div>
+  </div>
+  <script>
+    // Fallback redirect if meta refresh is blocked
+    setTimeout(function() {
+      window.location.replace('SimMobile_v106.html');
+    }, 400);
+  </script>
+</body>
+</html>
